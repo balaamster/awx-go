@@ -546,11 +546,11 @@ type Job struct {
 	VaultCredential         interface{}       `json:"vault_credential"`
 }
 
+// JobStdout represents the awx api job stdout fields
 type JobStdout struct {
 	Pagination
 	Content string `json:"content"`
 }
-
 
 // HostSummaryHost represents the awx api host summary host fields.
 type HostSummaryHost struct {
